@@ -14,8 +14,7 @@
 
 <%= render 'sharks/posts' %>
 
-<%= link_to 'Edit', edit_shark_path(@shark) %> |
-<%= link_to 'Back', sharks_path %>
+<%= link_to 'Edit', edit_shark_path(@shark), :class => "btn btn-primary btn-sm" %> <%= link_to 'Back', sharks_path, :class => "btn btn-primary btn-sm" %>
 
 <div data-controller="posts">
 	<button data-action="posts#showAll">Show Older Posts</button>

@@ -1,1 +1,1 @@
-Sample project demonstrating how to integrate Stimulus into an existing Rails project, as described in [How To Add Stimulus to a Ruby on Rails Application](https://www.digitalocean.com/community/tutorials/how-to-add-stimulus-to-a-ruby-on-rails-application).
+Sample project demonstrating how to integrate Bootstrap into an existing Rails project, as described in [How To Add Bootstrap to a Ruby on Rails Application](https://www.digitalocean.com/community/tutorials/how-to-add-bootstrap-to-a-ruby-on-rails-application).
