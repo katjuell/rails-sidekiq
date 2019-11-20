@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_27_143639) do
+ActiveRecord::Schema.define(version: 2019_11_20_132043) do
+
+  create_table "endangereds", force: :cascade do |t|
+    t.string "name"
+    t.string "iucn"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "posts", force: :cascade do |t|
     t.text "body"
