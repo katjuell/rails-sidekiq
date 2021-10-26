@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2019_11_20_132043) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "endangereds", force: :cascade do |t|
     t.string "name"
     t.string "iucn"
